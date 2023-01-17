@@ -36,7 +36,7 @@ If you want to keep the original operation of the kit, you should put the origin
 
 ## Hardware changes
 Removing the Leds after the soldering is very difficult, so I prefered buying a new kit and not soldering Leds and the 7-segment display at all.
-After getting rid of the original displays MCU will have about 23 GPIO's available to use!! More than enough for a TFT LCD screen.
+After getting rid of the original displays MCU will have about 23 GPIOs available to use!! More than enough for a TFT LCD screen.
 
 ## Schematic
 

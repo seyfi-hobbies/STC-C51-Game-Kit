@@ -22,9 +22,13 @@ Themistokle Benetatos' Arduino Flappy Bird game which uses the same LCD driver (
 Check it out here: https://github.com/mrt-prodz/ATmega328-Flappy-Bird-Clone
 
 Since Keil IDE doesn't allow more than 2K hex files, I used SDCC to compile the C source code. You can find compile script for Windows in the source folder.
-If you match the exact schematic you can just upload Hex file in binary folder to start playing the game. However if you need to change some port numbers you have to recompile the code.
+If you match the exact schematic you can just upload Hex file in binary folder to start playing the game. 
+
+However if you need to change some port numbers you have to recompile the code.
+
 To learn how to use STC_ISP programmer I watched the video of another STC hacker Rick100 here: https://www.youtube.com/watch?v=uuZZEVhCWIg
 The upload process is described after 21:00 minutes of this video. More info about Rick100's project is here: https://github.com/Rick-100/STC-hourglass-kit/wiki
+
 
 ## Warning!!!!!!!!!!!!!
 There is no way to read the original firmware that's in the chip so you can't revert back to it. 
@@ -33,6 +37,10 @@ If you want to keep the original operation of the kit, you should put the origin
 ## Hardware changes
 Removing the Leds after the soldering is very difficult, so I prefered buying a new kit and not soldering Leds and the 7-segment display at all.
 After getting rid of the original displays MCU will have about 23 GPIO's available to use!! More than enough for a TFT LCD screen.
+
+## Schematic
+
+todo
 
 ## Tools:
 

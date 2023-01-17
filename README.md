@@ -7,7 +7,7 @@ If you bought a DIY 8x16 Led game kit as the one before, you can easily convert 
 ## Screenshot:
 ![In-Game](https://raw.githubusercontent.com/seyfi-hobbies/STC-C51-Game-Kit/main/images/conversion.png)
 
-This game kit is very chip and some of them comes with STC15F2K60S2.
+This game kit is very cheap and some of them comes with STC15F2K60S2.
 If your chip is different the code examples might not work. 
 I have another kit with STC15W408S which doesn't have enough flash memory for graphical programs.
 

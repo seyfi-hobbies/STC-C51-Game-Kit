@@ -17,14 +17,17 @@ STC15F2K60S2 comes with,
 * 2 Timers
 * Hardware SPI
 
-Which has plenty of memory to write graphical games. After I complete the hardware changes I ported 
+Which has plenty of memory to write graphical games. After I completed the hardware changes I ported 
 Themistokle Benetatos' Arduino Flappy Bird game which uses the same LCD driver (ST7735S)
 Check it out here: https://github.com/mrt-prodz/ATmega328-Flappy-Bird-Clone
-
 
 ## Warning!!!!!!!!!!!!!
 There is no way to read the original firmware that's in the chip so you can't revert back to it. 
 If you want to keep the original operation of the kit, you should put the original chip aside and buy new blank chips for experimenting. 
+
+## Hardware changes
+Removing the Leds after the soldering is very difficult, so I prefered buying a new kit and not soldering Leds and the 7-segment display at all.
+After getting rid of the original displays MCU will have about 23 GPIO's available to use!! More than enough for a TFT LCD screen.
 
 ## Tools:
 

@@ -18,8 +18,8 @@
 
 
 //8x16 Game board pins
-#define LCD_RS P1_6  //rx, 
-#define LCD_SDI P1_3 //sdi, mosi
+#define LCD_RS P1_6  //rx, A0
+#define LCD_SDI P1_3 //sdi, mosi, SDA
 //#define LCD_SDO P1_4	//sdo, miso, not used on this LCD
 #define LCD_CS P1_7    //CS
 #define LCD_CLK P1_5   // sclk

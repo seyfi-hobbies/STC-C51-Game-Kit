@@ -58,6 +58,8 @@ https://sdcc.sourceforge.net/
 I use version 4.2.0
 
 - Keil to SDCC
-  This is a good tool to convert Keil C code to SDCC style.
-  if you write to much code in Keil and way passed 2K limit you might want to convert your code to SDCC (there are some differences)
 https://github.com/ywaby/keil2sdcc
+This is a good tool to convert Keil C code to SDCC style.
+
+If you write to much code in Keil and way passed 2K limit you might want to convert your code to SDCC (there are some differences)
+

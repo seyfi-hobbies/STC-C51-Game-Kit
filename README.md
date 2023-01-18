@@ -46,7 +46,10 @@ It has 8 pins and driver is ST7735S. Pin header and mapping can be seen below. L
 
 ## Tools:
 
-- STC_ISP software
+- STC_ISP uploading software
+- 
+  When your Hex file is ready this is the tool to flash the chip. You can also select clock frequency here before uploading the code. 
+  (I programmed at 24 Mhz)
 http://www.stcmicro.com/rjxz.html
 
 I use version 6.86. It comes as stc-isp-15xx-v6.86E where 'E' specifies English.
@@ -55,7 +58,7 @@ I use version 6.86. It comes as stc-isp-15xx-v6.86E where 'E' specifies English.
 - SDCC Small Device C Compiler
 https://sdcc.sourceforge.net/ 
 
-I use version 4.2.0
+C compiler for microcontrollers/CPUs. I use version 4.2.0
 
 - Keil to SDCC
 https://github.com/ywaby/keil2sdcc

@@ -37,9 +37,10 @@ If you want to keep the original operation of the kit, you should put the origin
 Removing the Leds after the soldering is very difficult, so I prefered buying a new kit and not soldering Leds and the 7-segment display at all.
 After getting rid of the original displays MCU will have about 23 GPIOs available to use!! More than enough for a TFT LCD screen.
 
-## Schematic
-
-todo
+## 128x160 TFT LCD
+This is a cheapest LCD you can buy online.(1.8" TFT LCD Screen SPI ST7735S 128x160)
+It has 8 pins and driver is ST7735S. Pin header and mapping can be seen in Images folder.
+![LCD](https://raw.githubusercontent.com/seyfi-hobbies/STC-C51-Game-Kit/main/images/LCD_image.png)
 
 ## Tools:
 

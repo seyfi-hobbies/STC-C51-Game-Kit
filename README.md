@@ -22,12 +22,11 @@ Check it out here: https://github.com/mrt-prodz/ATmega328-Flappy-Bird-Clone
 *Note that if your chip is different the code examples will not work. 
 I have another kit with STC15W408S which doesn't have enough flash memory for graphical programs.(8K flash, 5K eeprom, and 512 bytes of RAM)*
 
-Since free Keil IDE doesn't allow to create hex files more than 2K, I used SDCC to compile the C source code. You can find compile script for Windows in the source folder.
+Since free Keil IDE doesn't allow to create hex files more than 2K, I used SDCC to compile the C source code. You can find compile script for Windows in the source folder. You only need to recompile the code if you need to change some port numbers or something about the game.
 
-If you match the exact schematic and LCD you can just upload the flappyBird.hex file in binary folder to start playing the game. 
-However if you need to change some port numbers you have to recompile the code.
+If you match the exact schematic and LCD you can just upload the flappyBird.hex file in binary folder to start playing the game. I calibrated the game according to 24 Mhz clock frequency so please make sure you set this frequency when you program the chip in STC_ISP software.
 
-To learn how to use STC_ISP programmer I watched the video of another STC hacker Rick100 here: https://www.youtube.com/watch?v=uuZZEVhCWIg
+This chip can be programmed using an FTDI USB to Serial Adapter with only 4 pins. To learn how to use STC_ISP programmer I watched the video of another STC hacker Rick100 here: https://www.youtube.com/watch?v=uuZZEVhCWIg
 The upload process is described after 21:00 minutes of this video. More info about Rick100's project is here: https://github.com/Rick-100/STC-hourglass-kit/wiki
 
 ## Warning!!!!!!!!!!!!!

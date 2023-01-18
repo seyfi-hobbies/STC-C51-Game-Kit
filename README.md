@@ -39,8 +39,10 @@ After getting rid of the original displays MCU will have about 23 GPIOs availabl
 
 ## 128x160 TFT LCD
 This is a cheapest LCD you can buy online.(1.8" TFT LCD Screen SPI ST7735S 128x160)
-It has 8 pins and driver is ST7735S. Pin header and mapping can be seen in Images folder.
+It has 8 pins and driver is ST7735S. Pin header and mapping can be seen below. LCD examples are in http://www.lcdwiki.com
+
 ![LCD](https://raw.githubusercontent.com/seyfi-hobbies/STC-C51-Game-Kit/main/images/LCD_image.png)
+![LCD](https://raw.githubusercontent.com/seyfi-hobbies/STC-C51-Game-Kit/main/images/Pin-Mapping.png)
 
 ## Tools:
 

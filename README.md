@@ -15,7 +15,7 @@ Features of the chip:
 * 2 Timers
 * Hardware SPI
 
-Which has plenty of memory to write graphical games. After I completed the hardware changes I ported 
+The MCU has plenty of memory to write graphical games. After I completed the hardware changes I ported 
 Themistokle Benetatos' Arduino Flappy Bird game which uses the same LCD driver (ST7735S)
 Check it out here: https://github.com/mrt-prodz/ATmega328-Flappy-Bird-Clone
 

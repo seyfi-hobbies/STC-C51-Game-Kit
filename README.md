@@ -20,7 +20,7 @@ Themistokle Benetatos' Arduino Flappy Bird game which uses the same LCD driver (
 Check it out here: https://github.com/mrt-prodz/ATmega328-Flappy-Bird-Clone
 
 *Note that if your chip is different the code examples will not work. 
-I have another kit with STC15W408S which doesn't have enough flash memory for graphical programs.(8K flash, 5K eeprom, and 512 bytes of RAM)*
+I have another kit with STC15W408S which doesn't have enough flash memory for graphical programs.(8K flash, 5K eeprom, and 512 bytes of RAM). You can keep this one on the side and buy a blank STC15F2K60S2 and replace it. They are pin compatible*
 
 Since free Keil IDE doesn't allow to create hex files more than 2K, I used SDCC to compile the C source code. You can find compile script for Windows in the source folder. You only need to recompile the code if you need to change some port numbers or something about the game.
 

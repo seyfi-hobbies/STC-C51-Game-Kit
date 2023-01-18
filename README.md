@@ -46,13 +46,18 @@ It has 8 pins and driver is ST7735S. Pin header and mapping can be seen below. L
 
 ## Tools:
 
-STC_ISP software
+- STC_ISP software
 http://www.stcmicro.com/rjxz.html
 
 I use version 6.86. It comes as stc-isp-15xx-v6.86E where 'E' specifies English.
 
 
-SDCC Small Device C Compiler
+- SDCC Small Device C Compiler
 https://sdcc.sourceforge.net/ 
 
 I use version 4.2.0
+
+- Keil to SDCC
+  This is a good tool to convert Keil C code to SDCC style.
+  if you write to much code in Keil and way passed 2K limit you might want to convert your code to SDCC (there are some differences)
+https://github.com/ywaby/keil2sdcc

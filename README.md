@@ -8,10 +8,8 @@ If you bought a DIY 8x16 Led game kit as seen below, you can easily convert it t
 ![In-Game](https://raw.githubusercontent.com/seyfi-hobbies/STC-C51-Game-Kit/main/images/conversion.png)
 
 This game kit is very cheap and some of them comes with STC15F2K60S2.
-If your chip is different the code examples might not work. 
-I have another kit with STC15W408S which doesn't have enough flash memory for graphical programs. (Unless you want to program in assembly language)
 
-STC15F2K60S2 comes with, 
+Features of the chip: 
 * 60K Flash Memory
 * 2K SRAM
 * 2 Timers
@@ -21,14 +19,16 @@ Which has plenty of memory to write graphical games. After I completed the hardw
 Themistokle Benetatos' Arduino Flappy Bird game which uses the same LCD driver (ST7735S)
 Check it out here: https://github.com/mrt-prodz/ATmega328-Flappy-Bird-Clone
 
-Since Keil IDE doesn't allow more than 2K hex files, I used SDCC to compile the C source code. You can find compile script for Windows in the source folder.
-If you match the exact schematic you can just upload Hex file in binary folder to start playing the game. 
+*Note that if your chip is different the code examples will not work. 
+I have another kit with STC15W408S which doesn't have enough flash memory for graphical programs.(8K flash, 5K eeprom, and 512 bytes of RAM)*
 
+Since free Keil IDE doesn't allow to create hex files more than 2K, I used SDCC to compile the C source code. You can find compile script for Windows in the source folder.
+
+If you match the exact schematic and LCD you can just upload the flappyBird.hex file in binary folder to start playing the game. 
 However if you need to change some port numbers you have to recompile the code.
 
 To learn how to use STC_ISP programmer I watched the video of another STC hacker Rick100 here: https://www.youtube.com/watch?v=uuZZEVhCWIg
 The upload process is described after 21:00 minutes of this video. More info about Rick100's project is here: https://github.com/Rick-100/STC-hourglass-kit/wiki
-
 
 ## Warning!!!!!!!!!!!!!
 There is no way to read the original firmware that's in the chip so you can't revert back to it. 

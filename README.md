@@ -9,7 +9,7 @@ If you bought a DIY 8x16 Led game kit as seen below, you can easily convert it t
 
 See it in action : https://www.youtube.com/watch?v=FxkKD0-nTUY
 
-This game kit is very cheap and some of them comes with STC15F2K60S2.
+This game kit is very affordable and some of them comes with microcontroller, STC15F2K60S2.
 
 Features of the chip: 
 * 60K Flash Memory

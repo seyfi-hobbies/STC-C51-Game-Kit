@@ -37,7 +37,7 @@ void Timer0Init()
 * Output: None
 * SAME WARNING HERE. And TL0 and TH0 should be exactly same as above.
 ***************************************************** *******************************/
-void Timer0() __interrupt 1
+void Timer0() __interrupt
 {
  	TL0 = 0x30;		//Initial timer value
 	TH0 = 0xF8;		//Initial timer value
